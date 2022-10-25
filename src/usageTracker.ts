@@ -27,7 +27,8 @@ export type TrackedUsageFeatures =
 	| 'timelineWebview'
 	| 'timelineView'
 	| 'welcomeWebview'
-	| 'workspaceView';
+	| 'workspaceView'
+	| 'workspacesWebview';
 export type TrackedUsageKeys = `${TrackedUsageFeatures}:shown`;
 
 export type UsageChangeEvent = {
